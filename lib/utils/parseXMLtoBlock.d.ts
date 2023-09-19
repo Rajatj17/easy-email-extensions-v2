@@ -1,1 +1,2 @@
-export declare function parseXMLtoBlock(text: string): any;
+import { IBlockData } from 'easy-email-core';
+export declare function parseXMLtoBlock(text: string): IBlockData<any, any>;
